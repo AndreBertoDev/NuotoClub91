@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.nuoto.app"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.nuoto.app"
     }
   },
   "dependent_plugins": {}

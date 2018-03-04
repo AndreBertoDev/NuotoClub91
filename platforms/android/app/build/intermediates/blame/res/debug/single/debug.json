@@ -16,16 +16,16 @@
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.2.aar\\6a0826f2e52a43d0f16ca274b3c425cf\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.2.aar\\6a0826f2e52a43d0f16ca274b3c425cf\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0d03a17cd8ad92d4fddfba389fb7f56f\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0d03a17cd8ad92d4fddfba389fb7f56f\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0d03a17cd8ad92d4fddfba389fb7f56f\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.2.aar\\6a0826f2e52a43d0f16ca274b3c425cf\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\9c73e4f9a6fa5e775631546994fd5182\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
-        "source": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
-    },
-    {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0d03a17cd8ad92d4fddfba389fb7f56f\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
     },
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -62,10 +62,6 @@
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_onesignal_bgimage_notif_layout.xml.flat",
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\OneSignal-3.8.1.aar\\b9e0b6699b9f622f3f83330e14dcfb73\\res\\layout\\onesignal_bgimage_notif_layout.xml"
-    },
-    {
-        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
-        "source": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
     },
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
@@ -164,20 +160,12 @@
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.2.aar\\6a0826f2e52a43d0f16ca274b3c425cf\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
-        "source": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
-    },
-    {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0d03a17cd8ad92d4fddfba389fb7f56f\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.2.aar\\6a0826f2e52a43d0f16ca274b3c425cf\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
-        "source": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
     },
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
@@ -344,20 +332,12 @@
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.2.aar\\6a0826f2e52a43d0f16ca274b3c425cf\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
-        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
-        "source": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
-    },
-    {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0d03a17cd8ad92d4fddfba389fb7f56f\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
         "source": "C:\\Users\\Pixelite\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.2.aar\\6a0826f2e52a43d0f16ca274b3c425cf\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
-        "source": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
     },
     {
         "merged": "D:\\dati\\GitHub_repo\\Club91\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",

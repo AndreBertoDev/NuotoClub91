@@ -4,13 +4,17 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>NutotoClub91</name>
+    <feature name="OneSignalPush">
+        <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
+    </feature>
+    <name>Nuoto Club 91</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Nuoto club 91 app.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+        Andrea Bertogalli e Nicolò Avanzini
     </author>
+    <icon src="res/icon/icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
