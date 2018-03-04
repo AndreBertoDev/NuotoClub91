@@ -1,21 +1,3 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
 var app = {
     // Application Constructor
     initialize: function() {
@@ -40,7 +22,106 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        // OneSignal Initialization
+        // Enable to debug issues.
+        // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+
+        // Set your iOS Settings
+        var iosSettings = {};
+        iosSettings["kOSSettingsKeyAutoPrompt"] = false;
+        iosSettings["kOSSettingsKeyInAppLaunchURL"] = true;
+
+        window.plugins.OneSignal
+            .startInit("5f2e2e7a-a017-42ff-8e43-09543404b803")
+            .handleNotificationReceived(function(jsonData) {
+                alert("Notification received: \n" + JSON.stringify(jsonData));
+                console.log('Did I receive a notification: ' + JSON.stringify(jsonData));
+            })
+            .handleNotificationOpened(function(jsonData) {
+                alert("Notification opened: \n" + JSON.stringify(jsonData));
+                console.log('didOpenRemoteNotificationCallBack: ' + JSON.stringify(jsonData));
+            })
+            .inFocusDisplaying(window.plugins.OneSignal.OSInFocusDisplayOption.InAppAlert)
+            .iOSSettings(iosSettings)
+            .endInit();
+
+        //Call syncHashedEmail anywhere in your app if you have the user's email.
+        //This improves the effectiveness of OneSignal's "best-time" notification scheduling feature.
+        //window.plugins.OneSignal.syncHashedEmail(userEmail);
     }
 };
+
+function registerForPushNotification() {
+    console.log("Register button pressed");
+    window.plugins.OneSignal.registerForPushNotifications();
+    // Only works if user previously subscribed and you used setSubscription(false) below
+    window.plugins.OneSignal.setSubscription(true);
+}
+
+function getIds() {
+    window.plugins.OneSignal.getIds(function(ids) {
+        document.getElementById("OneSignalUserId").innerHTML = "UserId: " + ids.userId;
+        document.getElementById("OneSignalPushToken").innerHTML = "PushToken: " + ids.pushToken;
+        console.log('getIds: ' + JSON.stringify(ids));
+        alert("userId = " + ids.userId + "\npushToken = " + ids.pushToken);
+    });
+}
+
+function sendTags() {
+    window.plugins.OneSignal.sendTags({
+        PhoneGapKey: "PhoneGapValue",
+        key2: "value2"
+    });
+    alert("Tags Sent");
+}
+
+function getTags() {
+    window.plugins.OneSignal.getTags(function(tags) {
+        alert('Tags Received: ' + JSON.stringify(tags));
+    });
+}
+
+function deleteTags() {
+    window.plugins.OneSignal.deleteTags(["PhoneGapKey", "key2"]);
+    alert("Tags deleted");
+}
+
+function promptLocation() {
+    window.plugins.OneSignal.promptLocation();
+    // iOS - add CoreLocation.framework and add to plist: NSLocationUsageDescription and NSLocationWhenInUseUsageDescription
+    // android - add one of the following Android Permissions:
+    // <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    // <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+}
+
+function syncHashedEmail() {
+    window.plugins.OneSignal.syncHashedEmail("example@google.com");
+    alert("Email synced");
+}
+
+function postNotification() {
+    window.plugins.OneSignal.getIds(function(ids) {
+        var notificationObj = {
+            contents: {
+                en: "message body"
+            },
+            include_player_ids: [ids.userId]
+        };
+        window.plugins.OneSignal.postNotification(notificationObj,
+            function(successResponse) {
+                console.log("Notification Post Success:", successResponse);
+            },
+            function(failedResponse) {
+                console.log("Notification Post Failed: ", failedResponse);
+                alert("Notification Post Failed:\n" + JSON.stringify(failedResponse));
+            }
+        );
+    });
+}
+
+function setSubscription() {
+    window.plugins.OneSignal.setSubscription(false);
+}
 
 app.initialize();

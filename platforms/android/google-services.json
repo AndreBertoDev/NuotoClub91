@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "605553367752",
+    "firebase_url": "https://nuotoclub91-zz.firebaseio.com",
+    "project_id": "nuotoclub91-zz",
+    "storage_bucket": "nuotoclub91-zz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605553367752:android:591177897a1a257d",
+        "android_client_info": {
+          "package_name": "com.nuoto.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605553367752-ek8oqsovdl0vlqgjd3sa07298vrofn36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1UiPj61X0mHIa0Y1qYoMwKF8cGRb-OfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

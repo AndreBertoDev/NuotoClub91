@@ -70,7 +70,7 @@ html,
   position: relative;
   width: 265px;
   height: 85px;
-  left:5%;
+  left:3%;
   top: -20%;
   margin: auto;
 }
@@ -154,7 +154,10 @@ html,
   position: fixed;
   height: auto;
   overflow: scroll;
-  margin-top: 2px;
+  border-top-style: solid;
+ border-top-color:  #999999;
+ border-top-width: 0.5px;
+   margin-top: 2px;
     bottom: 0%;
     height: 60px;
     width: 100%;
