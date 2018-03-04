@@ -1,0 +1,42 @@
+.instruction{
+    position: absolute;
+    text-align: center;
+      font-family: verdana;
+       margin-top:25%;
+    width: auto;
+}
+
+.button-container{
+    position: absolute;
+    margin-top:60%;
+    left: 30%;
+}
+
+.selection-top{
+    background-color: #b2b2b2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 100%;
+}
+
+.selection-bottom{
+    margin-top: 3px;
+    background-color: #b2b2b2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 100%;
+}

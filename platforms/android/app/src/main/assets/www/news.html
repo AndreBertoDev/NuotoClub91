@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NEWS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/news.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+  </head>
+  <body>
+    <div class="navigation">
+      <!--il bottone x-->
+      <div class="dropdown">
+        <div class="x" onclick="Drop(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <!--quando premo-->
+        <div id="myDropdown" class="dropdown-content">
+          <a id="news" class="active">NEWS</a>
+          <a id="agonistica" href="./agonistica.html">AGONISTICA</a>
+          <a id="corsi" href="./corsi.html">CORSI SCUOLA</a>
+          <a id="chiSiamo" href="./chiSiamo.html">CHI SIAMO</a>
+        </div>
+      </div>
+      <img class="banner" src="img/banner.png">
+    </div>
+    <div class="titlenews" id="titlenews">
+      <p>NEWS PAGE</p>
+    </div>
+    <div class="viewer" id="posts"></div>
+    <div id="social" style="  position: fixed; top: 40%; left: -40px; width: 15%; height: auto;" onclick="Traslation()">
+      <button id="open-close" class="open-close">|||</button>
+      <ul class="social-ul">
+        <li class="social-li-a"><a href="https://it-it.facebook.com/nuotoclub91parma/"><img class="icon" src="./img/facebook.png" width="38px" height="38px"></a>
+        <li class="social-li-a"><a href="mailto:nuotoclub91parma@libero.it"><img class="icon" src="./img/mail.png" width="38px" height="35px"></a>
+        <li class="social-li-a"><a href="http://www.nuotoclub91parma.it"><img class="icon" src="./img/site.png" width="38px" height="38px"></a>
+        <li class="social-li-a"><a href="tel:+390521486259"><img class="icon" src="./img/phone.png" width="38px" height="38px"></a>
+      </ul>
+    </div>
+    <div id="internet" class="internet">
+      <img src="./img/internet.png" class="netlogo"/>
+      <h1 class="netText">
+      <h1 class="noConnection">Connessione internet assente !</h1>
+      <p class="refreshContent">Attiva la connessione, poi premi il pulsante per ricaricare la pagina</p>
+      </h1>
+      <button id="refreshBtn" onclick="refresh()">Aggiorna</button>
+    </div>
+    <div id="spinner" class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+    <div id="bottom-info">
+      <p id="bottom-text" style="text-align: center;position: relative;">
+        © Copyright  2016 Nuoto Club 91 Parma . All rights reserved. | P.I. 00888830346 Privacy Policy
+      </p>
+      <br>
+    </div>
+  </body>
+</html

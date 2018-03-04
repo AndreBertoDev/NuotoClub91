@@ -1,0 +1,163 @@
+html,
+/* comprende tutto il bottone */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  top: -30px;
+}
+/* Dropdown Content (nascosto di Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-style: solid;
+  background-color: #ffffff;
+  width: 190px;
+  top: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 14pt;
+}
+/* Links dentro dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 16px 10px;
+  text-decoration: none;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b1b2b5;
+}
+/* mostra il dropdown */
+.dropdown-content.show {
+  display:block; 
+}
+
+/**********************************************************************************************/
+
+/*e' la x*/
+.x {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  left: 30%;
+  top: 0px;
+}
+/*le barrette*/
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+/*animation*/
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 5.5px);
+  transform: rotate(-45deg) translate(-9px, 5.5px);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -6px);
+  transform: rotate(45deg) translate(-8px, -6px);
+}
+
+/*******************************************************************************************/
+
+.banner{
+  position: relative;
+  width: 265px;
+  height: 85px;
+  left:5%;
+  top: -20%;
+  margin: auto;
+}
+
+/*****************************************************************************************/
+
+.navigation{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    border-bottom-style: solid;
+    border-bottom-color:  #999999;
+    border-bottom-width: 0.5px;
+    background-color: #e6e6e6;
+    z-index: 1;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.5);
+}
+/*******************************************************************************************/
+.active{
+ background-color: #acacac;
+ cursor: pointer;
+}
+
+.social-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 100%;
+    background-color: #e6e6e6;
+    left: 0%;    
+}
+
+.social-li-a {
+    max-width: 40%;
+    text-decoration: none;
+}
+
+.open-close{
+  position: absolute;
+  background-color: #e6e6e6;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 20px;
+  height: 100%;
+  left: 10px;
+  float: left;
+  color: black;
+  padding-right: 25px;
+  outline: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.icon {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  padding: 5px;
+  padding-left:0px;
+}
+
+#bottom-info
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  background-color: #e6e6e6;
+  font-family: verdana;
+}
+
+#bottom-text {
+  position: fixed;
+  height: auto;
+  overflow: scroll;
+  margin-top: 2px;
+    bottom: 0%;
+    height: 60px;
+    width: 100%;
+    background-color: #e6e6e6;
+    font-family: verdana;
+}

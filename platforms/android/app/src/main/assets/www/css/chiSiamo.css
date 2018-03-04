@@ -1,0 +1,13 @@
+body {
+	margin-bottom: 80px;
+}
+
+
+.testo { 
+	position: relative;
+	width: 275px;
+	font-family: verdana;
+	margin-left: 45px;
+	margin-top: 75px;
+	overflow: scroll;
+}
