@@ -1,18 +1,18 @@
-.instruction{
+.instruction {
     position: absolute;
     text-align: center;
-      font-family: verdana;
-       margin-top:25%;
+    font-family: verdana;
+    margin-top: 120px;
     width: auto;
 }
 
-.button-container{
+.button-container {
     position: absolute;
-    margin-top:60%;
+    margin-top: 60%;
     left: 30%;
 }
 
-.selection-top{
+.selection-top {
     background-color: #b2b2b2;
     border: none;
     color: white;
@@ -26,7 +26,7 @@
     width: 100%;
 }
 
-.selection-bottom{
+.selection-bottom {
     margin-top: 3px;
     background-color: #b2b2b2;
     border: none;

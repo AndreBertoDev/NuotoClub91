@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.onesignal:OneSignal:3.8.1] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.1.aar\b9e0b6699b9f622f3f83330e14dcfb73\AndroidManifest.xml:2:1-106:12
-MERGED from [:CordovaLib] D:\dati\GitHub_repo\Club91\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [:CordovaLib] C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
 MERGED from [com.google.android.gms:play-services-gcm:11.2.2] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.2.2.aar\5cb9fea8d653c536e8aedbff7d5d9102\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-location:11.2.2] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\play-services-location-11.2.2.aar\517c66e06be7c4716e4074f9fb00711b\AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-iid:11.2.2] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.2.2.aar\6513588526433b831514411fd4acff3c\AndroidManifest.xml:16:1-24:12
@@ -20,41 +20,41 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Pixelite\.g
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\2f0e0fe01e566e6bc3c345ddc62b34f7\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0d03a17cd8ad92d4fddfba389fb7f56f\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\bf0317ce642accce3136b9e0596c7aab\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:102-125
-		INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:102-125
+		INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
-		INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml
 	android:hardwareAccelerated
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:126-184
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:126-184
 	android:versionCode
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
-		INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml
 supports-screens
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
 	android:largeScreens
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
 	android:smallScreens
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
 	android:normalScreens
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
 	android:xlargeScreens
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
 	android:resizeable
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
 	android:anyDensity
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
 application
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:4:5-20:19
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:4:5-20:19
 MERGED from [com.onesignal:OneSignal:3.8.1] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.1.aar\b9e0b6699b9f622f3f83330e14dcfb73\AndroidManifest.xml:49:5-104:19
 MERGED from [com.onesignal:OneSignal:3.8.1] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.1.aar\b9e0b6699b9f622f3f83330e14dcfb73\AndroidManifest.xml:49:5-104:19
 MERGED from [com.google.android.gms:play-services-gcm:11.2.2] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.2.2.aar\5cb9fea8d653c536e8aedbff7d5d9102\AndroidManifest.xml:23:5-19
@@ -86,79 +86,79 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Pixelite\.gradl
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\bf0317ce642accce3136b9e0596c7aab\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\bf0317ce642accce3136b9e0596c7aab\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:4:114-140
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:4:114-140
 	android:label
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:4:81-113
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:4:81-113
 	android:hardwareAccelerated
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:4:18-52
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:4:18-52
 	android:icon
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:4:53-80
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:4:53-80
 activity#com.nuoto.app.MainActivity
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:5:9-10:20
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:5:9-10:20
 	android:label
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:5:97-134
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:5:97-134
 	android:launchMode
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:5:135-165
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:5:135-165
 	android:windowSoftInputMode
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:5:257-299
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:5:257-299
 	android:configChanges
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:5:19-96
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:5:19-96
 	android:theme
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:5:194-256
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:5:194-256
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:5:166-193
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:5:166-193
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:6:13-9:29
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:6:13-9:29
 	android:label
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:6:28-65
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:6:28-65
 action#android.intent.action.MAIN
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:7:17-69
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:7:17-69
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:7:25-66
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:7:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:8:17-77
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:8:17-77
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:8:27-74
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:8:27-74
 amazon:enable-feature
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:11:9-159
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:11:9-159
 	xmlns:amazon
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:11:100-156
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:11:100-156
 	android:required
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:11:75-99
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:11:75-99
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:11:32-74
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:11:32-74
 service#com.onesignal.ADMMessageHandler
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:12:9-92
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:12:9-92
 	android:exported
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:12:18-42
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:12:18-42
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:12:43-89
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:12:43-89
 receiver#com.onesignal.ADMMessageHandler$Receiver
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:permission
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:13:75-139
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:13:75-139
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:13:19-74
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:13:19-74
 intent-filter#com.amazon.device.messaging.intent.RECEIVE+com.amazon.device.messaging.intent.REGISTRATION+com.nuoto.app
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:14:13-18:29
 action#com.amazon.device.messaging.intent.REGISTRATION
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:15:17-90
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:15:17-90
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:15:25-87
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:15:25-87
 action#com.amazon.device.messaging.intent.RECEIVE
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:16:17-85
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:16:17-85
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:16:25-82
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:16:25-82
 category#com.nuoto.app
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:17:17-58
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:17:17-58
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:17:27-55
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:17:27-55
 uses-sdk
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:21:5-74
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:21:5-74
 MERGED from [com.onesignal:OneSignal:3.8.1] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.1.aar\b9e0b6699b9f622f3f83330e14dcfb73\AndroidManifest.xml:5:5-44
 MERGED from [com.onesignal:OneSignal:3.8.1] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.1.aar\b9e0b6699b9f622f3f83330e14dcfb73\AndroidManifest.xml:5:5-44
-MERGED from [:CordovaLib] D:\dati\GitHub_repo\Club91\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
-MERGED from [:CordovaLib] D:\dati\GitHub_repo\Club91\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 MERGED from [com.google.android.gms:play-services-gcm:11.2.2] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.2.2.aar\5cb9fea8d653c536e8aedbff7d5d9102\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-gcm:11.2.2] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.2.2.aar\5cb9fea8d653c536e8aedbff7d5d9102\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-location:11.2.2] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\play-services-location-11.2.2.aar\517c66e06be7c4716e4074f9fb00711b\AndroidManifest.xml:3:5-43
@@ -190,23 +190,23 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Pixelite\.gradle\cac
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\71e60528bb47b608b2843ef39da35f9f\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:21:42-71
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:21:42-71
 	android:minSdkVersion
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:21:15-41
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:21:15-41
 uses-permission#com.amazon.device.messaging.permission.RECEIVE
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:22:5-86
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:22:5-86
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:22:22-83
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:22:22-83
 permission#com.nuoto.app.permission.RECEIVE_ADM_MESSAGE
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:23:5-115
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:23:5-115
 	android:protectionLevel
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:23:77-112
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:23:77-112
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:23:17-76
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:23:17-76
 uses-permission#com.nuoto.app.permission.RECEIVE_ADM_MESSAGE
-ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:24:5-84
+ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:24:5-84
 	android:name
-		ADDED from D:\dati\GitHub_repo\Club91\platforms\android\app\src\main\AndroidManifest.xml:24:22-81
+		ADDED from C:\Users\Pixelite\Documents\GitHub\NuotoClub91\platforms\android\app\src\main\AndroidManifest.xml:24:22-81
 permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.8.1] C:\Users\Pixelite\.gradle\caches\transforms-1\files-1.1\OneSignal-3.8.1.aar\b9e0b6699b9f622f3f83330e14dcfb73\AndroidManifest.xml:8:5-10:47
 	android:protectionLevel
