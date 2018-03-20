@@ -1,1 +1,1 @@
-cordova emulate android
+cordova run android
