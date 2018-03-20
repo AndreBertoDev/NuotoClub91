@@ -83,3 +83,8 @@ body{
   font-size: 10px;
   font-family: verdana;
 }
+
+.invisible
+{
+	visibility: hidden;
+}

@@ -45,11 +45,14 @@ function refresh(){
 	location.reload();
 }
 
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
 
-
-
-//$(document).ready(function() {
-//	$("a").click(function() {
-//		this.href = "abjkk";
-//	});
-//});
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Now safe to use device APIs
+    }
