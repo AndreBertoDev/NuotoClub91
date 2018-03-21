@@ -1,3 +1,7 @@
+$(document).ready(function() {
+	$('#posts').load('http://www.nuotoclub91parma.it/scuola-nuoto-federale/ #table-corsi-scuola-nuoto');
+});
+
 function download_orari() {
     window.open('http://www.nuotoclub91parma.it/wp/wp-content/uploads/2018/01/Cattura.png');
     window.open('http://www.nuotoclub91parma.it/scuola-nuoto-federale/cattura2-2/');
