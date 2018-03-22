@@ -3,6 +3,7 @@ html,
 body{
   /* colore bianco backgroung */
   background-color: #ffffff;
+  height: auto;
 }
 
 .logo{

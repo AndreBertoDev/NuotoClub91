@@ -1,10 +1,45 @@
-function download_orari() {
-    window.open('http://www.nuotoclub91parma.it/wp/wp-content/uploads/2018/01/Cattura.png');
-    window.open('http://www.nuotoclub91parma.it/scuola-nuoto-federale/cattura2-2/');
+$(document).ready(function () {
+	$("#spinner").show();
+	$("#bottom-info").hide();
+	$("#internet").hide();
+});
+
+function isOnline(yes, no){
+    var xhr = XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHttp');
+    xhr.onload = function(){
+        if(yes instanceof Function){
+            yes();
+        }
+    }
+    xhr.onerror = function(){
+        if(no instanceof Function){
+            no();
+        }
+	}
+	xhr.open("GET","http://www.nuotoclub91parma.it",true);
+    xhr.send();
 }
 
-function download_iscrizioni() {
-    window.open('http://www.nuotoclub91parma.it/wp/wp-content/uploads/2016/04/Prelazione-e-iscizione-2%C2%B0-trim-genn-marz-2017-2.pdf');
-    window.open('http://www.nuotoclub91parma.it/wp/wp-content/uploads/2016/04/CALENDARIO-LEZIONI-DI-NUOTO-20172018.pdf');
-    window.open('http://www.nuotoclub91parma.it/wp/wp-content/uploads/2016/04/Cattura.png');
+isOnline(
+    function(){
+    	//alert("you are online");
+		$("#posts").show();
+		$("#internet").hide();
+		$(document).ready(function() {
+			$('#posts').load('http://www.nuotoclub91parma.it/scuola-nuoto-federale/ #table-corsi-scuola-nuoto');
+		});
+		$("#spinner").hide();
+		$("#bottom-info").show();
+},
+    function(){
+        //alert("you are offline");
+		$("#posts").hide();
+		$("#internet").show();
+		$("#bottom-info").hide();
+		$("#spinner").hide();
+    }
+);
+
+function refresh(){
+	location.reload();
 }
