@@ -2,6 +2,7 @@ $(document).ready(function () {
 	$("#spinner").show();
 	$("#bottom-info").hide();
 	$("#internet").hide();
+	$(".titolo").hide();
 });
 
 function isOnline(yes, no){
@@ -30,6 +31,7 @@ isOnline(
 		});
 		$("#spinner").hide();
 		$("#bottom-info").show();
+		$(".titolo").show();
 },
     function(){
         //alert("you are offline");

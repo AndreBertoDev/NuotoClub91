@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Mar 24 20:22:52 CET 2018
+#Sat Mar 24 22:41:00 CET 2018
 122.file=D\:\\github-repositories\\NuotoClub91\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\js\\corsi.js
 60.set=ANDROID_RESOURCE
 129.file=D\:\\github-repositories\\NuotoClub91\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\plugins\\cordova-plugin-fcm\\www\\FCMPlugin.js
