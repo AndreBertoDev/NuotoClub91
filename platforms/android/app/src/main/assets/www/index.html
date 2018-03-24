@@ -51,7 +51,7 @@
 		<div style="position:fixed; width: 100%; bottom: 0; text-align: center;">
 		<p class="footer">developed by: Nicolò Avanzini & Andrea Bertogalli</p>
 		</div>
-			<form class="invisible">
+			<form class="invisible" style="position: absolute; margin-top: -1000px">
 				<input type="button" value="Register For Push Notifications iOS" onclick="registerForPushNotification()" />
 				<br>
 				<input type="button" value="Get Ids" onclick="getIds()" />
@@ -78,11 +78,11 @@
 				<br>
 			</form>
 			
-			<p id="OneSignalUserId"></p>
-			<p style="word-break: break-all;" id="OneSignalPushToken"></p>
-			<div id="deviceready" class="blink invisible">
-				<p class="event listening invisible">Connecting to Device</p>
-				<p class="event received invisible">Device is Ready</p>
+			<p id="OneSignalUserId" style="position: absolute; margin-top: -1000px"></p>
+			<p style="word-break: break-all;" id="OneSignalPushToken" style="position: absolute; margin-top: -1000px"></p>
+			<div id="deviceready" class="blink invisible" style="position: absolute; margin-top: -1000px">
+				<p class="event listening invisible" style="position: absolute; margin-top: -1000px">Connecting to Device</p>
+				<p class="event received invisible" style="position: absolute; margin-top: -1000px">Device is Ready</p>
 			</div>
 			
 			<script type="text/javascript" src="cordova.js"></script>
