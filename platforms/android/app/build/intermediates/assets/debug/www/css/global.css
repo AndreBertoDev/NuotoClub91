@@ -127,6 +127,10 @@ html,
     cursor: pointer;
 }
 
+#social {
+    z-index: 2;
+}
+
 .social-ul {
     list-style-type: none;
     margin: 0;
