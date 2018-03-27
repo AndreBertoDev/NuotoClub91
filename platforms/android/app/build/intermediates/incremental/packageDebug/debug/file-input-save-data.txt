@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Mar 27 17:31:11 CEST 2018
+#Tue Mar 27 17:42:00 CEST 2018
 122.file=D\:\\github-repositories\\NuotoClub91\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\js\\news.js
 60.set=ANDROID_RESOURCE
 129.file=D\:\\github-repositories\\NuotoClub91\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable\\common_google_signin_btn_icon_disabled.xml
