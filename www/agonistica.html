@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/global.js"></script>
+    <script src="js/agonistica.js"></script>  
     <link rel="stylesheet" type="text/css" href="css/global.css">
   </head>
   <body>
@@ -27,7 +28,7 @@
       </div>
       <img class="banner" src="img/banner.png">
     </div>
-    <br><br><br><br><br><br><h1>AGONISTICA</h1> <!--riga temporanea-->
+    <div class="viewer" id="posts"></div>
     <div id="social" style="  position: fixed; top: 40%; left: -40px; width: 15%; height: auto;" onclick="Traslation()">
       <button id="open-close" class="open-close">|||</button>
       <ul class="social-ul">
@@ -37,6 +38,19 @@
         <li class="social-li-a"><a href="tel:+390521486259"><img class="icon" src="./img/phone.png" width="38px" height="38px"></a>
         <li class="social-li-a"><a href="https://www.google.it/maps/place/Nuoto+Club+91+Parma/@44.7883631,10.3438123,17z/data=!3m1!4b1!4m5!3m4!1s0x47806b295923d873:0x225fc017a77e0df2!8m2!3d44.7883593!4d10.346001?hl=it"><img class="icon" src="./img/map.png" width="35px" height="35px"></a>
       </ul>
+    </div>
+     <div id="internet" class="internet">
+      <img src="./img/internet.png" class="netlogo"/>
+      <h1 class="netText">
+      <h1 class="noConnection">Connessione internet assente !</h1>
+      <p class="refreshContent">Attiva la connessione, poi premi il pulsante per ricaricare la pagina</p>
+      </h1>
+      <button id="refreshBtn" onclick="refresh()">Aggiorna</button>
+    </div>
+    <div id="spinner" class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
     </div>
     <div id="bottom-info">
       <p id="bottom-text" style="text-align: center;position: relative;">
