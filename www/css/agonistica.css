@@ -3,9 +3,8 @@ body {
   font-family: verdana;
 }
 
-
-#posts {
-    margin-top: 125px;    
+.vc_tta-panels {
+    margin-top: 40px;
     margin-bottom: 60px;
     position: relative;
     overflow: hidden;
@@ -106,11 +105,12 @@ body {
     overflow: hidden;
 }
 
-.wp-image-8186 {
+.wp-image-8128 {
+    display: none;
     width: 100%;
 }
 
-.wp-image-8102 {
+.wp-image-8245 {
     width: 100%;
 }
 

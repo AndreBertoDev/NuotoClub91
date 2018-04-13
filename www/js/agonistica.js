@@ -1,7 +1,9 @@
 $(document).ready(function () {
     $("#titlenews").hide();
     $("#spinner").show();
+    $("#internet").hide();
     $("#bottom-info").hide();
+    $(".titolo").hide();
 });
 
 function isOnline(yes, no){
@@ -26,8 +28,9 @@ isOnline(
         $("#titlenews").show();
         $("#internet").hide();
         $(document).ready(function() {
-            $('#posts').load('http://www.nuotoclub91parma.it/categoria/ #post-23');
+            $('#posts').load('http://www.nuotoclub91parma.it/agonistica/ #table-agonistica');
         });
+        $(".titolo").show();
         $("#spinner").hide();
         $("#bottom-info").show();
 },
